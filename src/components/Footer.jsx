@@ -27,35 +27,32 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        <div className="fooer-bottom-row">
-          <hr />
-          <div className="pad-top">
-            <div className="footer-bottom-wrap-text">
-              <p>
-                Наши <br /> социальные сети
-              </p>
-            </div>
-            <div className="footer-bottom-icons">
-              <Link className="footer-icon-list">
-                <img src="./img/footer-facebook.svg" alt="facebook-logo" />
-              </Link>
-              <Link
-                to={"https://instagram.com/namanganliklar24.uz"}
-                className="footer-icon-list"
-              >
-                <img src="./img/footer-instagram.svg" alt="instagram-logo" />
-              </Link>
-              <Link
-                to={"https://t.me/NAMANGANLIKLAR"}
-                className="footer-icon-list"
-              >
-                <img src="./img/footer-telegram.svg" alt="telegram-logo" />
-              </Link>
-              <Link className="footer-icon-list">
-                <img src="./img/footer-youtube.svg" alt="youtube-logo" />
-              </Link>
-            </div>
+        <hr />
+        <div className="pad-top">
+          <div className="footer-bottom-wrap-text">
+            <p>
+              Наши <br /> социальные сети
+            </p>
+          </div>
+          <div className="footer-bottom-icons">
+            <Link className="footer-icon-list">
+              <img src="./img/footer-facebook.svg" alt="facebook-logo" />
+            </Link>
+            <Link
+              to={"https://instagram.com/namanganliklar24.uz"}
+              className="footer-icon-list"
+            >
+              <img src="./img/footer-instagram.svg" alt="instagram-logo" />
+            </Link>
+            <Link
+              to={"https://t.me/NAMANGANLIKLAR"}
+              className="footer-icon-list"
+            >
+              <img src="./img/footer-telegram.svg" alt="telegram-logo" />
+            </Link>
+            <Link className="footer-icon-list">
+              <img src="./img/footer-youtube.svg" alt="youtube-logo" />
+            </Link>
           </div>
         </div>
       </div>

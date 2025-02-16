@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1240px;
+}
+
+.Login-wrap {
+  padding-top: 60px;
+  padding-bottom: 100px;
+
+  h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+}
+
+.All-row {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.Войти-wrapper-container {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  input {
+    border: 1px solid #00000033;
+    border-radius: 10px;
+  }
+
+  input:nth-child(1) {
+    width: 343px;
+    padding: 18px 0 18px 20px;
+  }
+
+  input:nth-child(2) {
+    width: 343px;
+    padding: 18px 0 18px 20px;
+  }
+
+  #pochta {
+    width: 100%;
+    max-width: 696px;
+    padding: 18px 0 18px 20px;
+  }
+
+  textarea {
+    width: 100%;
+    max-width: 696px;
+    height: auto;
+    min-height: 180px;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+    padding: 18px 20px;
+    resize: vertical;
+  }
+
+  textarea,
+  input:focus {
+    border: 1px solid #00000033;
+    outline: none;
+    cursor: text;
+  }
+
+  textarea,
+  input::placeholder {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.96px;
+    letter-spacing: 0%;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 17px 30px;
+    border-radius: 10px;
+    background-color: #7297ef;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.96px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    width: 100%;
+    max-width: 145px;
+    margin-left: auto;
+  }
+}
+
+.Login {
+  background-color: #f6f6f6;
+  padding: 40px 25px 40px 25px;
+  width: 100%;
+  max-width: 494px;
+  border-radius: 10px;
+
+  h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 7px;
+  }
+
+  a {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.96px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding-bottom: 20px;
+    display: inline-block;
+  }
+
+  hr {
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    max-width: 444px;
+    margin-bottom: 20px;
+  }
+}

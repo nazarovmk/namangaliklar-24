@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1240px;
+}
+
+.Interesting {
+  div {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    img {
+      max-width: 1200px;
+      height: 128px;
+      display: flex;
+    }
+  }
+}

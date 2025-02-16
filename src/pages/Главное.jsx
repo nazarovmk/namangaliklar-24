@@ -1,5 +1,9 @@
+import React, { useState } from "react";
 import "./Главное.css";
+
 function Главное() {
+  const [showCloseBtn, setShowCloseBtn] = useState(false);
+
   return (
     <main>
       <section className="home-container container">
@@ -140,12 +144,26 @@ function Главное() {
           </div>
         </div>
       </section>
+
       <section className="Включит-btn-container">
         <div className="Включит-btn-wrap">
           <p>Хотите быть в курсе свежих новостей? Включите уведомления!</p>
-          <button>Включит</button>
+          <button onClick={() => setShowCloseBtn(true)}>Включить</button>
         </div>
       </section>
+
+      <section className={`close-btn ${showCloseBtn ? "show" : ""}`}>
+        <div>
+          <img
+            onClick={() => setShowCloseBtn(false)}
+            src="./img/close-btn.svg"
+            alt=""
+          />
+          <h4>Хотите быть в курсе свежих новостей? Включите уведомления!</h4>
+          <button>Закрыть</button>
+        </div>
+      </section>
+
       <section className="mire-wrapper container">
         <h2>В мире</h2>
         <div className="mire-container">
@@ -262,9 +280,10 @@ function Главное() {
             />
           </div>
         </div>
-        <div className="container mire-bottom-btn">
-          <button>Показать ещё</button>
-        </div>
+      </section>
+
+      <section className="container mire-bottom-btn">
+        <button>Показать ещё</button>
       </section>
     </main>
   );

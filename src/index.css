@@ -193,14 +193,20 @@ footer {
 .footer-container {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.footer-row-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 963px;
   padding-left: 20px;
   padding-right: 20px;
+
+  hr {
+    border: 1px solid #cecece;
+    max-width: 998px;
+    margin-bottom: 20px;
+  }
+}
+
+.footer-row-container {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
@@ -250,24 +256,10 @@ footer {
   margin-left: 100px;
 }
 
-.fooer-bottom-row {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 1038px;
-
-  hr {
-    border: 1px solid #cecece;
-    max-width: 998px;
-  }
-
-  .pad-top {
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.pad-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   p {
     font-family: "Rubik", sans-serif;
